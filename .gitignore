@@ -1,0 +1,20 @@
+# wandb files
+wandb
+# ipynb_checkpoints
+.ipynb_checkpoints
+# mapbox token
+.mapbox_token
+*.pt
+# model map
+*.nc
+*.onnx
+# pycache
+__pycache__
+
+# DS_store
+.DS_Store
+
+data/external/*
+data/interim/*
+data/processed/*
+data/raw/*

@@ -1,0 +1,28 @@
+name: project-wind
+channels:
+  - pytorch-nightly
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python
+  - pytorch
+  - netCDF4
+  - h5netcdf
+  - nbformat>=4.2.0
+  - openpyxl
+  - wandb
+  - shap
+  - ipywidgets
+  - pip:
+      - pandas
+      - seaborn
+      - scikit-learn
+      - xarray
+      - statsmodels
+      - plotly
+      - tqdm
+      - kaleido
+      - catboost
+      - hyperopt
+      
